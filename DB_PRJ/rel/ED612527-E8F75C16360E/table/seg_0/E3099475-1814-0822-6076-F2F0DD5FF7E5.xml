@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3099475-1814-0822-6076-F2F0DD5FF7E5" name="CUSTOMER">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>63D0E80B-E0CF-A663-52F1-B81F405A0FDD</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="942606CE-35A4-0F94-D3EC-61B12DE62813">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>B332F78C-5371-6F13-660D-89690AB16658</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="43532137-E224-9F67-6D67-3D47C9715CC2">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>56A5B48B-AA9B-3E5E-AE9E-1E4232B2F903</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Income" id="5FDA3B93-DA54-5FBE-9324-E24A2DECDDBE">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>861DD63E-463F-CFDF-D099-2792C2DBB64D</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Credit_score" id="942DB2C1-091C-AD77-9904-A18E2A3C27B1">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>1AC32A60-80B4-F791-BF7B-7CA14E84A1FD</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>350</beginValue>
+<endValue>800</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Desired_#bedroom" id="733284C1-080E-73AA-C462-324D6E0A4CA9">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>C87DA007-E7F6-54EC-8AA7-FCD64A2B5F7A</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Desired_#bath" id="01433AA0-D577-20B0-D74B-7C145E131E62">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>B77B98F8-9F90-AFBF-CE2E-83E850F6CD00</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Desired_square_footage" id="0D83567D-FC3A-269F-FD0F-68666B2490A8">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>2EBEE496-1463-DE2A-F18F-4FD9B4D28600</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Desired_school_rank" id="B2C61BC8-137A-1847-EF63-A94D473808A5">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>A618BA9C-756E-6834-EE5C-5007E0AF34E4</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_TYPE" id="0124ADC5-4ADF-0E7A-B100-BFB4A49BAC09">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<constraintName>CH_INH_CUSTOMER</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<listOfValues>
+<valueDef value="CUSTOMER" description="entity CUSTOMER"/>
+<valueDef value="EXISTING_C" description="entity EXISTING_C"/>
+<valueDef value="PORTENTIAL_C" description="entity PORTENTIAL_C"/>
+</listOfValues>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BEE776A-DB93-4DCB-5AF9-75EF4C3394CE" name="CUSTOMER_PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>8E0B5FDE-7239-566A-C113-76E457F19FBA</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43532137-E224-9F67-6D67-3D47C9715CC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

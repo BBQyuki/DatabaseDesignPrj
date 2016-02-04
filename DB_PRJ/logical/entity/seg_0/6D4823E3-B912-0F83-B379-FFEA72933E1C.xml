@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D4823E3-B912-0F83-B379-FFEA72933E1C" name="MANAGER">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 22:45:01 UTC</createdTime>
+<comment> Each employee works at a subdivision of the company. Each subdivision is managed by a manager. A manager can only manage one subdivision. We record the start date of the manager for each subdivision. </comment>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="7E11F847-D7AC-DEBC-0207-64638D4C3515" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Start_date" id="5ACF7CFB-8D68-1E81-1F18-30604D31F3BE">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 22:45:39 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="7E11F847-D7AC-DEBC-0207-64638D4C3515" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

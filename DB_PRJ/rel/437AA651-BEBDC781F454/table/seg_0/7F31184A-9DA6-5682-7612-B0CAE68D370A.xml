@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F31184A-9DA6-5682-7612-B0CAE68D370A" name="LOAN_APP">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<generatorID>1D387AE7-D880-A6B1-495B-D46DB4635784</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Credit_report" id="4C0F6F27-0987-2D23-9D86-523ACA8EAD40">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<generatorID>F0DEE086-941A-B52D-9DD0-9415C4AD13A0</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Decision_date" id="DA313115-E68D-587E-F472-D130BECFC80B">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<comment> approval/disapproval date</comment>
+<generatorID>D4BF0377-CAF7-1CF4-8B93-DF590A0723F0</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Loan_type" id="FBF680C5-A1B6-0EBD-6F45-FC0B41383ED8">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<comment> approval/disapproval .</comment>
+<generatorID>4CFF974D-FB98-0786-DE33-225153CCD364</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Loan_term" id="A8A2B812-34CC-3CD9-8FD9-957D4D9C3EFD">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<comment>(15 year, 30 year, etc.) </comment>
+<generatorID>89EC834D-ACA6-866E-0101-A8C57065DFFE</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Key" id="FFDD7F6D-C2E3-47FF-BF2C-7BC6182A8522">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<comment>surrogate key</comment>
+<generatorID>8636F312-8A59-11F1-344B-E1A2DC62CE23</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Role" id="8A54A068-5580-9F92-FC5C-4A6053BAB51E">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<comment>customer or company</comment>
+<generatorID>0411F6E4-CB96-B200-5053-DD1272438E24</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<listOfValues>
+<valueDef value="company" description=""/>
+<valueDef value="customer" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8554707B-8FEF-F95E-3FFA-8A68D766DD19" name="LOAN_APPLICANT_PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<generatorID>EF1974FE-0E59-6513-A7C5-D4CC4C56DE46</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFDD7F6D-C2E3-47FF-BF2C-7BC6182A8522"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

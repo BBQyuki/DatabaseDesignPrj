@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C42BFCE-018E-509C-30CD-CA8E8652B113" name="SALES_AGENT">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<comment>do not check the disjoint constraint!</comment>
+<generatorID>452A9656-6F28-225F-102C-7D73D0E682FB</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Employee_ID" id="6A550A62-4C66-AA78-7EE9-FB4D39061FF9">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<comment>key</comment>
+<generatorID>A7170F47-F228-9B01-D938-FFE97D7623C2</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E60453C-47EB-4BE9-839C-8B379CC6A6A5" referredColumn="94B07554-226C-E8CC-B790-011354E7C74F"/>
+</associations>
+</Column>
+<Column name="Shift" id="359C0B42-C2FA-07EB-013C-BB1F1215AEE7">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>B2C2FB36-4142-B22E-DF8A-C8F74ED18DCB</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE043A59-FA45-0619-98B3-B89D0AFED7AF" name="SALES_AGENT_PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>9B2318FA-D827-3E65-5B3B-9F7C7136124B</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A550A62-4C66-AA78-7EE9-FB4D39061FF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BED6F946-B756-D181-9FBA-C55B9213ED7A" name="SALES_AGENT_EMPLOYEE_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>DF6B4E04-B78A-D3F0-49EC-EB05C540963A</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A550A62-4C66-AA78-7EE9-FB4D39061FF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

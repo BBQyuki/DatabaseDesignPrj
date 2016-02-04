@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="734C2B90-2847-6142-9919-AB4711FD14D4" name="SECRETARY">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<comment>do not check the disjoint constraint!</comment>
+<generatorID>6EB6F27C-5A7D-B2BC-AA05-0BC2C6826384</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Employee_ID" id="51458E42-2D98-6A20-4522-DE50920CB6F9">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<comment>key</comment>
+<generatorID>A7170F47-F228-9B01-D938-FFE97D7623C2</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3747D946-0935-CAAB-028A-BE0D4AB321F1" referredColumn="94B07554-226C-E8CC-B790-011354E7C74F"/>
+</associations>
+</Column>
+<Column name="Hourly_wage" id="14C4FE6E-C5AE-115B-63CB-F1A5900FCFE2">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>9B4CAE44-BF3B-A395-7493-D97EC2E072B5</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BEA24BF2-FA4F-FC32-E2FD-2BCB952DE96C" name="SECRETARY_PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>9B2318FA-D827-3E65-5B3B-9F7C7136124B</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51458E42-2D98-6A20-4522-DE50920CB6F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="726881FA-24E8-D04C-8958-7967CB4C8588" name="SECRETARY_EMPLOYEE_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>AE1B3730-BDDE-4432-955E-563C8C2F7109</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51458E42-2D98-6A20-4522-DE50920CB6F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

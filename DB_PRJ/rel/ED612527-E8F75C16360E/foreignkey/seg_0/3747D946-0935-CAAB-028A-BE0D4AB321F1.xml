@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3747D946-0935-CAAB-028A-BE0D4AB321F1" containerWithKeyObject="734C2B90-2847-6142-9919-AB4711FD14D4" localFKIndex="726881FA-24E8-D04C-8958-7967CB4C8588" name="SECRETARY_EMPLOYEE_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>AE1B3730-BDDE-4432-955E-563C8C2F7109</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<arc>7468DA23-D211-36DD-F077-8A99B1C911BC</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>54D47B6E-441A-52E1-7119-C4F57F8FB78C</referredTableID>
+<keyObject>CA052F0D-CA6F-CD0D-27C5-F2A2C046206A</keyObject>
+<referredKeyID>CA052F0D-CA6F-CD0D-27C5-F2A2C046206A</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>SECRETARY</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

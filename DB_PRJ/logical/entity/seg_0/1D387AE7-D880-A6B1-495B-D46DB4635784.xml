@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D387AE7-D880-A6B1-495B-D46DB4635784" name="LOAN_APP">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:42:40 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Credit_report" id="F0DEE086-941A-B52D-9DD0-9415C4AD13A0">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:43:03 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Decision_date" id="D4BF0377-CAF7-1CF4-8B93-DF590A0723F0">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:43:30 UTC</createdTime>
+<comment> approval/disapproval date</comment>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Loan_type" id="4CFF974D-FB98-0786-DE33-225153CCD364">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:44:15 UTC</createdTime>
+<comment> approval/disapproval .</comment>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Loan_term" id="89EC834D-ACA6-866E-0101-A8C57065DFFE">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:44:48 UTC</createdTime>
+<comment>(15 year, 30 year, etc.) </comment>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Key" id="8636F312-8A59-11F1-344B-E1A2DC62CE23">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:59:46 UTC</createdTime>
+<comment>surrogate key</comment>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Role" id="0411F6E4-CB96-B200-5053-DD1272438E24">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 01:18:34 UTC</createdTime>
+<comment>customer or company</comment>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<listOfValues>
+<valueDef value="company" description=""/>
+<valueDef value="customer" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF1974FE-0E59-6513-A7C5-D4CC4C56DE46" name="LOAN_APPLICANT PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:59:55 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8636F312-8A59-11F1-344B-E1A2DC62CE23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

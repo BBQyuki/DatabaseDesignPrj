@@ -1,0 +1,253 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A75C0F7-870F-EAC5-C981-F8472D5EB985" name="FLOOR_PLAN">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>7902A89C-088A-6DD5-7CA0-23B58534F30A</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="3F05B2A2-C979-CFD2-3B8E-5F6EC62D0CD4">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>C3516DFC-A48A-B2DF-1604-CA346A962EEC</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="DFE2D8E5-FD18-A493-197E-1191FFA34949">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>D84EFF29-180B-FCCC-4C0E-7B4F53D5EB92</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Square_footage" id="B9038110-8973-296D-B1EA-1745FC74F44E">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<comment>(4-digit integer); </comment>
+<generatorID>DE71C324-798B-B1B4-5519-044883DF79D6</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1000</beginValue>
+<endValue>9999</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Floor#" id="315E7978-CB83-696E-ECF6-B1048BAD4B72">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<comment>(integer from 1 to 3</comment>
+<generatorID>4D825FFF-B8A8-B35A-4DC5-62551ECF9FF3</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>3</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Bedroom#" id="97388484-A358-8A5F-DD7A-49C76B08A3F7">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<comment>(integers from 1 to 5</comment>
+<generatorID>C2C8D553-0560-CA29-68B0-D66902FD1F81</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>5</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Bath#" id="5B91E1D0-9616-08ED-36D7-670175F61017">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<comment>(integers from 1 to 5</comment>
+<generatorID>D2C8013E-CD5E-6191-ECB9-60904A7625D7</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>5</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="List_price" id="6FAA31DF-4BC5-3052-EB34-4BBAA89BAC27">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>84B2BBA1-5F86-F688-6B02-58D6172DF899</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Garage#" id="6F28A856-465E-F6A4-4F2A-CB096CCB4C0D">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>3CCE404C-8D43-9349-8F95-5278F7716102</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>3</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="SUBDIVISION_Name" id="1D74143F-B9AE-C570-1777-F4C1F66AB535">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>D9DD4604-B382-7025-04CD-4A453379B24F</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67675CF0-2006-7091-790E-E16F2FEAA12E" referredColumn="376B6987-2FBF-39F8-4331-83FF2F36A87B"/>
+</associations>
+</Column>
+<Column name="CONTRACT_ID" id="7DB143AF-9E14-C1DF-C660-C32B83B7CA09">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>183BF8BF-244C-C577-14A4-82C07F1E68C9</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EBADA38-ACAF-B8E0-9A72-4A9BD08E6717" referredColumn="2D67FB3D-DBBD-A285-C7AE-9E475610EFA0"/>
+</associations>
+</Column>
+<Column name="CONTRACT_PORTENTIAL_C_Email" id="83CB057D-FAD1-171D-6564-016849A8DF07">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>A18B91F1-DAC3-0D74-553E-C20222F74BEE</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EBADA38-ACAF-B8E0-9A72-4A9BD08E6717" referredColumn="E5A09432-E514-8D5F-B616-D4FE6B4C0C1B"/>
+</associations>
+</Column>
+<Column name="CONTRACT_SUBDIVISION_Name" id="735390DD-5BC3-591D-AA31-3970E29E88EB">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>F464A000-22F6-B19B-E8DA-CA13F63F18C7</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EBADA38-ACAF-B8E0-9A72-4A9BD08E6717" referredColumn="727291E9-E0CE-236E-17D8-9F9EFBC47513"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D515016-1488-07A5-A0A3-878402778390" name="FLOOR_PLAN_PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>ECA70C10-070D-37D6-C676-55EC617ABBEA</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D74143F-B9AE-C570-1777-F4C1F66AB535"/>
+<colUsage columnID="3F05B2A2-C979-CFD2-3B8E-5F6EC62D0CD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D11107C-4B35-58B8-3CFD-EB1472EFEBBB" name="FLOOR_PLAN__IDX">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FA57EAF6-75B2-E822-B530-A8AE1E6EC1E8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7DB143AF-9E14-C1DF-C660-C32B83B7CA09"/>
+<colUsage columnID="83CB057D-FAD1-171D-6564-016849A8DF07"/>
+<colUsage columnID="735390DD-5BC3-591D-AA31-3970E29E88EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43F2D04B-9518-15A3-10F1-7F7D5C918B33" name="FLOOR_PLAN_CONTRACT_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>FA57EAF6-75B2-E822-B530-A8AE1E6EC1E8</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DB143AF-9E14-C1DF-C660-C32B83B7CA09"/>
+<colUsage columnID="83CB057D-FAD1-171D-6564-016849A8DF07"/>
+<colUsage columnID="735390DD-5BC3-591D-AA31-3970E29E88EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29EAED72-9BD2-E529-31A2-6AF74167C238" name="FLOOR_PLAN_SUBDIVISION_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>EF350BFC-AFAE-5183-C950-69E788A49B65</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D74143F-B9AE-C570-1777-F4C1F66AB535"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

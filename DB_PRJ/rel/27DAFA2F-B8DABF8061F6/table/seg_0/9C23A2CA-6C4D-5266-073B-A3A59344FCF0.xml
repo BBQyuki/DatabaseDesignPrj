@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C23A2CA-6C4D-5266-073B-A3A59344FCF0" name="EMPLOYEE">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>AD1F5054-333C-54C3-7716-FEC96555706F</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Employee_ID" id="5B34131F-0510-7982-56CC-32E37A806CA2">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<comment>key</comment>
+<generatorID>A7170F47-F228-9B01-D938-FFE97D7623C2</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_name" id="88262BA6-9C8C-309E-B125-613E008F5A6F">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>964C260F-2A46-BF47-D84F-FF7AD237A89C</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_name" id="E488BB0E-5DC4-0A6E-B666-0F6080692A96">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>A43CCA38-494D-4EFB-02E4-9CE075DA361A</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone#" id="12825FB3-D5EF-A50A-B009-AF92E5496CD1">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<comment>assume phone numbers are unique.</comment>
+<generatorID>A3ED9BBD-E43E-EC3E-591E-0C4E1ACE4092</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salary" id="3128AC67-12A6-F3DE-F148-6E026D239D10">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>16670C3F-03E4-1824-AEEE-736DEF33BBAA</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Years_of_experience" id="A46651ED-5EC8-62CF-E5C2-0A3120B18096">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<comment>this attr has constraint [0, 55]</comment>
+<generatorID>B04B6DB5-81A5-6ABD-922A-1E2C09724968</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<constraintName>years constraint</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>55</endValue>
+<description>range of years</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="SUBDIVISION_Name" id="8EDEE2F1-B162-3CEC-6EC7-E221E8D285FE">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>92726AED-0FCD-8AFB-789F-E423E12408E2</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="826F5FA2-799A-062D-86F9-DC69827725A3" referredColumn="73BEE75A-CB4D-0100-C297-DF7740631F3B"/>
+</associations>
+</Column>
+<Column name="EMPLOYEE_TYPE" id="A1EE4FFE-7037-0497-6D8F-3E3F47547A2C">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<constraintName>CH_INH_EMPLOYEE</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<listOfValues>
+<valueDef value="EMPLOYEE" description="entity EMPLOYEE"/>
+<valueDef value="SALES_AGENT" description="entity SALES_AGENT"/>
+<valueDef value="SECRETARY" description="entity SECRETARY"/>
+</listOfValues>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F40F0B1E-B56B-B190-6553-B8DAA7125751" name="EMPLOYEE_PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>9B2318FA-D827-3E65-5B3B-9F7C7136124B</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B34131F-0510-7982-56CC-32E37A806CA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E2759C2-F54B-7B03-67EB-CE575FD539B4" name="EMPLOYEE_SUBDIVISION_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:52 UTC</createdTime>
+<generatorID>ADDBC0AE-DA20-8470-6D1E-E6C71A6DBDDB</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EDEE2F1-B162-3CEC-6EC7-E221E8D285FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

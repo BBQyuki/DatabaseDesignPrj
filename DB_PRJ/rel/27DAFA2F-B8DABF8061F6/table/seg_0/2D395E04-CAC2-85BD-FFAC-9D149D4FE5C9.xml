@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D395E04-CAC2-85BD-FFAC-9D149D4FE5C9" name="SUBDIVISION">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<comment>A subdivision refers to a neighborhood that is under developing by the company. </comment>
+<generatorID>E6B2DE82-A06E-2399-7D73-691B1046B576</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="73BEE75A-CB4D-0100-C297-DF7740631F3B">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>DCEA2B8B-2CEA-A561-7AE2-C1098A277D46</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Start_year" id="FA35209A-575C-46F6-5F22-AD586768835C">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>4D8860DD-C74E-A561-A4D1-8B090ECD022C</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zip_code" id="E443C4C1-121B-AE19-8969-7A73C3662883">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>C98DBB75-7F03-A79B-3257-17FB06E38772</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rank_of_school_district" id="0840C9AE-A1A9-A836-E1B7-F30592E049C3">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>6708BCCC-A896-1BF8-49F6-087D6FEAF312</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANAGER_MANAGER_ID" id="3DD73B1F-BB48-B7F8-77E7-300C43DD2527">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:52 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEF70DE3-0F4B-DAD2-6F8E-93D526EB950A" referredColumn="79F1F91C-CCD0-56B1-9D96-FF5C31252710"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F582ED3-0638-1D9A-100F-6008989EB589" name="SUBDIVISION_PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>55FFA7CE-3C80-344D-6497-E6149781D52C</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73BEE75A-CB4D-0100-C297-DF7740631F3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A512EF67-0BC9-A79A-404D-2CDBBF13018F" name="SUBDIVISION__IDX">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:52 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9EA679DD-0E26-01DA-D289-F5E347220C6E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3DD73B1F-BB48-B7F8-77E7-300C43DD2527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C4F175D-21A3-54C7-B47C-5B97AB696699" name="SUBDIVISION_MANAGER_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:52 UTC</createdTime>
+<generatorID>9EA679DD-0E26-01DA-D289-F5E347220C6E</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DD73B1F-BB48-B7F8-77E7-300C43DD2527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

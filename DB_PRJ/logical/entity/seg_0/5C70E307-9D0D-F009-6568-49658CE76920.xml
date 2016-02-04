@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C70E307-9D0D-F009-6568-49658CE76920" name="SHIFT">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 22:31:03 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Week" id="79D32F74-E0CB-BCC4-F255-849579376C8A">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 22:31:42 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Key" id="C23B01DF-FD89-BD5E-F30D-5D2314B48F10">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:06:41 UTC</createdTime>
+<comment>surrogate</comment>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee_ID" id="D1CB891F-16A2-0AFC-9704-A9E960D71D65">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:09:45 UTC</createdTime>
+<comment>key</comment>
+<generatorID>E8DA45F0-643D-EA52-0DA4-7A64B6BDBE22</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<referedAttribute>A7170F47-F228-9B01-D938-FFE97D7623C2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1655EEF-6215-F257-16A4-72DF47531BB9" name="SHIFT PKv1">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:07:09 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C23B01DF-FD89-BD5E-F30D-5D2314B48F10</attributeRef>
+<attributeRef>D1CB891F-16A2-0AFC-9704-A9E960D71D65</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

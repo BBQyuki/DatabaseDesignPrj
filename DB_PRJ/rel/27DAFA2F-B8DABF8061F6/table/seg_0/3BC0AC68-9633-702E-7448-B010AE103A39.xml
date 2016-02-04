@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3BC0AC68-9633-702E-7448-B010AE103A39" name="EXISTING_C">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<comment>do not check the disjoint constraint!</comment>
+<generatorID>D1C6934C-E59B-78FA-6F69-30782445D35D</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Email" id="83B4A689-B4A8-3BF3-76CC-4B87D2525AF1">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>56A5B48B-AA9B-3E5E-AE9E-1E4232B2F903</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D8539FA-5E31-456B-87F1-64DFB57E009A" referredColumn="D83A8E37-7A2F-B163-2079-357D03582BEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F674E1A6-56C0-5DE1-A507-D098CEADF60C" name="EXISTING_C_PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>8E0B5FDE-7239-566A-C113-76E457F19FBA</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83B4A689-B4A8-3BF3-76CC-4B87D2525AF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BE30B1F-6B56-8222-5E7E-10EDF9A73850" name="EXISTING_C_CUSTOMER_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>13FF3F96-325C-BBA8-3DE0-0E4C87275A2F</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83B4A689-B4A8-3BF3-76CC-4B87D2525AF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

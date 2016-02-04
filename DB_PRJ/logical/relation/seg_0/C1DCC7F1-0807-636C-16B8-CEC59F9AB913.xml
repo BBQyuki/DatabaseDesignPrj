@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="C1DCC7F1-0807-636C-16B8-CEC59F9AB913">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:39:43 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="7E11F847-D7AC-DEBC-0207-64638D4C3515" value="true"/>
+</engineerTo>
+<sourcePk>8E0B5FDE-7239-566A-C113-76E457F19FBA</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>63D0E80B-E0CF-A663-52F1-B81F405A0FDD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>254F8144-0CBD-0914-E41F-AD77D7EA659D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1C6934C-E59B-78FA-6F69-30782445D35D" name="EXISTING_C">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:45:14 UTC</createdTime>
+<comment>do not check the disjoint constraint!</comment>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="437AA651-4E40-7ECB-ED3F-BEBDC781F454" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>63D0E80B-E0CF-A663-52F1-B81F405A0FDD</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

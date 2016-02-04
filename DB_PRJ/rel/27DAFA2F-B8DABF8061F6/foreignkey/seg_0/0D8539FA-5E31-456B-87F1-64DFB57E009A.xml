@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D8539FA-5E31-456B-87F1-64DFB57E009A" containerWithKeyObject="3BC0AC68-9633-702E-7448-B010AE103A39" localFKIndex="7BE30B1F-6B56-8222-5E7E-10EDF9A73850" name="EXISTING_C_CUSTOMER_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>13FF3F96-325C-BBA8-3DE0-0E4C87275A2F</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<arc>9D01BE6F-4B75-0B95-9B19-112D636650EA</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C3CD7208-32FC-896D-88E2-F7E997A9DAB1</referredTableID>
+<keyObject>3080F2B4-545A-8470-4CAC-A8289AD63391</keyObject>
+<referredKeyID>3080F2B4-545A-8470-4CAC-A8289AD63391</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>EXISTING_C</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

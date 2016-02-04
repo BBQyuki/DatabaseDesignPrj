@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F1751AE-1011-5600-DEB2-798D13174AD5" name="TOUR">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:41:12 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DATE" id="E1DFB40F-0CDA-B886-5A78-D3C2CCF31E5A">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:41:18 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="C205C075-AE66-D685-7BB3-B610EA386503">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:41:36 UTC</createdTime>
+<generatorID>A2BDDD5B-0582-6631-B3D3-4882E62256BF</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<referedAttribute>9F951A0D-1D74-E5D2-DEEC-58F056561788</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="A9EBD638-A914-9DB7-B314-72A5470A8514">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:41:36 UTC</createdTime>
+<generatorID>A2BDDD5B-0582-6631-B3D3-4882E62256BF</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<referedAttribute>C882275B-7374-1B04-6080-B50B356E217A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee_ID" id="FA12CD9E-960D-17DA-7427-5004F8B2FAF3">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:41:55 UTC</createdTime>
+<comment>key</comment>
+<generatorID>4C0C1407-9942-3C0E-9F3F-67014C4DAFB4</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<referedAttribute>A7170F47-F228-9B01-D938-FFE97D7623C2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Key" id="A219005C-447F-6435-72E5-944C6E9DE1C3">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:11:55 UTC</createdTime>
+<generatorID>A2BDDD5B-0582-6631-B3D3-4882E62256BF</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<referedAttribute>EF768C35-A4B9-A5F4-78F3-17278695A8B7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Key_2" id="C8BEAA22-9C66-C26C-D248-06601440A3A3">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:13:36 UTC</createdTime>
+<comment>surrogate</comment>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CDC12C64-51FF-F9FC-683E-661E64507B20" name="TOUR PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:41:19 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C205C075-AE66-D685-7BB3-B610EA386503</attributeRef>
+<attributeRef>A9EBD638-A914-9DB7-B314-72A5470A8514</attributeRef>
+<attributeRef>A219005C-447F-6435-72E5-944C6E9DE1C3</attributeRef>
+<attributeRef>FA12CD9E-960D-17DA-7427-5004F8B2FAF3</attributeRef>
+<attributeRef>C8BEAA22-9C66-C26C-D248-06601440A3A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

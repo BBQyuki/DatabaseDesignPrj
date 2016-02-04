@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6B2DE82-A06E-2399-7D73-691B1046B576" name="SUBDIVISION">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 22:36:00 UTC</createdTime>
+<comment>A subdivision refers to a neighborhood that is under developing by the company. </comment>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="DCEA2B8B-2CEA-A561-7AE2-C1098A277D46">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 22:36:37 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start_year" id="4D8860DD-C74E-A561-A4D1-8B090ECD022C">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 22:37:07 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zip_code" id="C98DBB75-7F03-A79B-3257-17FB06E38772">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 22:37:17 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rank_of_school_district" id="6708BCCC-A896-1BF8-49F6-087D6FEAF312">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 22:37:40 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55FFA7CE-3C80-344D-6497-E6149781D52C" name="SUBDIVISION PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 22:38:21 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DCEA2B8B-2CEA-A561-7AE2-C1098A277D46</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

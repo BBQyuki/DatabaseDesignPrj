@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6825D91-E617-4212-D109-7066901E3D2C" name="#Phone">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:29:18 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Phone_number" id="B2687A0D-EC54-EDE5-6523-967D1FE05883">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:29:35 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="E5B0D84A-457C-E29C-7136-1DB13BD7546E">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:33:02 UTC</createdTime>
+<generatorID>58A2E8B6-6B5F-10B1-2DFF-8F718E01F6E2</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<referedAttribute>56A5B48B-AA9B-3E5E-AE9E-1E4232B2F903</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Key" id="0294EB88-98C8-4C91-79A0-19D66A980C68">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:17:49 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F406A631-65D4-ACFA-7EB4-68D4034B94EE" name="#Phone PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:32:32 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E5B0D84A-457C-E29C-7136-1DB13BD7546E</attributeRef>
+<attributeRef>0294EB88-98C8-4C91-79A0-19D66A980C68</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

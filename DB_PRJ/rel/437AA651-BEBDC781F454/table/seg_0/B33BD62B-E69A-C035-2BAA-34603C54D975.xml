@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B33BD62B-E69A-C035-2BAA-34603C54D975" name="#Phone">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<generatorID>A6825D91-E617-4212-D109-7066901E3D2C</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Phone_number" id="A64AE4DF-0DEE-EF0D-8894-D6BDCFF8DB76">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<generatorID>B2687A0D-EC54-EDE5-6523-967D1FE05883</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_Email" id="08D02DD6-3042-75A2-1C47-2B5579CCB1F8">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<generatorID>E5B0D84A-457C-E29C-7136-1DB13BD7546E</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="396147F7-985A-6124-659D-A5EEE89DF78B" referredColumn="55176369-59E5-ED1E-785D-0E0A7437C61B"/>
+</associations>
+</Column>
+<Column name="Key" id="F8FFB93C-1EE1-2672-C61E-6CA124F2B827">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<generatorID>0294EB88-98C8-4C91-79A0-19D66A980C68</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="945A48EE-2256-E936-5CDF-3CF2495B157D" name="#Phone_PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<generatorID>F406A631-65D4-ACFA-7EB4-68D4034B94EE</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08D02DD6-3042-75A2-1C47-2B5579CCB1F8"/>
+<colUsage columnID="F8FFB93C-1EE1-2672-C61E-6CA124F2B827"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2472A2C4-057C-6F06-F1D0-FC5F509951FA" name="#Phone_CUSTOMER_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<generatorID>58A2E8B6-6B5F-10B1-2DFF-8F718E01F6E2</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08D02DD6-3042-75A2-1C47-2B5579CCB1F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

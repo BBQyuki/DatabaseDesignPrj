@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="EF350BFC-AFAE-5183-C950-69E788A49B65">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 22:58:44 UTC</createdTime>
+<comment>Each subdivision provides several floor plans.  A floor plan cannot be identified by itself; it belongs to a subdivision of the company.</comment>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="7E11F847-D7AC-DEBC-0207-64638D4C3515" value="true"/>
+</engineerTo>
+<sourcePk>55FFA7CE-3C80-344D-6497-E6149781D52C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E6B2DE82-A06E-2399-7D73-691B1046B576</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7902A89C-088A-6DD5-7CA0-23B58534F30A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

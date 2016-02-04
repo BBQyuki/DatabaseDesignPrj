@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="254F8144-0CBD-0914-E41F-AD77D7EA659D" name="VISIT_RECORD">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:34:07 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Date" id="4A1FCC27-E864-B6AB-BD54-AD3DD8596883">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:34:44 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="C882275B-7374-1B04-6080-B50B356E217A">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:38:26 UTC</createdTime>
+<generatorID>0D131F21-CD18-9D6E-AB3A-9500BA038ED8</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<referedAttribute>DCEA2B8B-2CEA-A561-7AE2-C1098A277D46</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="9F951A0D-1D74-E5D2-DEEC-58F056561788">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:39:43 UTC</createdTime>
+<generatorID>C1DCC7F1-0807-636C-16B8-CEC59F9AB913</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<referedAttribute>56A5B48B-AA9B-3E5E-AE9E-1E4232B2F903</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Key" id="EF768C35-A4B9-A5F4-78F3-17278695A8B7">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:11:45 UTC</createdTime>
+<comment>surrogate</comment>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CF379E8B-013F-934F-4F15-F320237ECE6C" name="VISIT_RECORD PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:37:38 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9F951A0D-1D74-E5D2-DEEC-58F056561788</attributeRef>
+<attributeRef>C882275B-7374-1B04-6080-B50B356E217A</attributeRef>
+<attributeRef>EF768C35-A4B9-A5F4-78F3-17278695A8B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

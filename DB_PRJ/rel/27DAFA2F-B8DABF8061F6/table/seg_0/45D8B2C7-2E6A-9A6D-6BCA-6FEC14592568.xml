@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45D8B2C7-2E6A-9A6D-6BCA-6FEC14592568" name="PORTENTIAL_C">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<comment>do not check the disjoint constraint!&lt;br/&gt; A customer is considered as a potential customer until she signs a contract with the company</comment>
+<generatorID>6933A37B-347D-2E1D-0B7D-114A16F91724</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Email" id="EE752245-6C34-9FB5-02E7-4DF6ABEC3BC4">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>56A5B48B-AA9B-3E5E-AE9E-1E4232B2F903</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2D10E5D-C35D-A5B5-A443-3A07DECB8684" referredColumn="D83A8E37-7A2F-B163-2079-357D03582BEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="940B5991-44F5-3B0C-E256-40AD4909CDE0" name="PORTENTIAL_C_PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>8E0B5FDE-7239-566A-C113-76E457F19FBA</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE752245-6C34-9FB5-02E7-4DF6ABEC3BC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70A594C0-AE03-C394-8C2E-32A9C7689C46" name="PORTENTIAL_C_CUSTOMER_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>D954F7B9-C17F-8B9E-E71C-77B76E59AE70</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE752245-6C34-9FB5-02E7-4DF6ABEC3BC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

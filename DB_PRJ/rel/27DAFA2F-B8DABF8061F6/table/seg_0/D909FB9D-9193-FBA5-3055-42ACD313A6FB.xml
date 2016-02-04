@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D909FB9D-9193-FBA5-3055-42ACD313A6FB" name="LOT">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>2432ECE3-8317-42FB-4E58-BD43294A936C</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A4A33E2F-6267-21F1-8319-53243BFA6F0B">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>6AB91E3E-B829-C59E-6FD2-1603A9DCB3E0</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Size" id="AA0D3691-F927-6BCB-FE83-D11E83910553">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>1401B8AA-6B2B-D9B7-1476-D96CAFFA6C2D</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Facing" id="8C5D0FB8-F2D7-E5D2-D9CF-6FE167B302D7">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<comment>North, South, East, or West</comment>
+<generatorID>4DF44F1C-8C8E-0ADD-CB4A-B5165D7E200B</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<listOfValues>
+<valueDef value="East" description=""/>
+<valueDef value="North" description=""/>
+<valueDef value="South" description=""/>
+<valueDef value="West" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Whether_available" id="AFCA73F6-738B-FDA3-FB7C-2D74432BB707">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<comment> Sold lots and the lots that have been selected to build an &lt;br/&gt;inventory home are considered not ‘available’. </comment>
+<generatorID>26591B7D-3DDC-B9BB-5471-B39BF4150D0C</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBDIVISION_Name" id="6A516B25-D932-AC14-2503-C3E66B76F598">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>7EA46187-3F64-ADAD-76E0-B0F76DDA643D</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="552524C8-31DF-08F6-C68D-B6E3CAD83757" referredColumn="73BEE75A-CB4D-0100-C297-DF7740631F3B"/>
+</associations>
+</Column>
+<Column name="CONTRACT_ID" id="B73DFF99-1630-ADDC-81EF-B1A27F6573A0">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>72E92E70-35B5-B626-41DE-9EA478DA9487</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AF0FBDE-7069-C669-47CD-3C54A09B4224" referredColumn="0C62D0C9-EAA5-FF3D-CD87-6EB87BB5D44D"/>
+</associations>
+</Column>
+<Column name="CONTRACT_PORTENTIAL_C_Email" id="51BFBC74-4D0E-CD3C-2D0B-71AEA62AFBC6">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>1044D514-4B69-9A22-D36C-8A9872BA5C2F</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AF0FBDE-7069-C669-47CD-3C54A09B4224" referredColumn="92F1C2D9-E4AF-6690-4EC0-6C23BB914188"/>
+</associations>
+</Column>
+<Column name="CONTRACT_SUBDIVISION_Name" id="777671B0-FE4E-5C2E-5AD1-815A74243A3D">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>F565975D-E188-EA7F-3C73-A1048A537A03</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AF0FBDE-7069-C669-47CD-3C54A09B4224" referredColumn="F9E9F978-4CA9-0000-62A3-2B5036F442DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19C479A4-1D89-8F5B-DBBA-1427A561977C" name="LOT_PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:51 UTC</createdTime>
+<generatorID>7A73F4B8-FE7C-D53A-1198-5E3C5826D21E</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4A33E2F-6267-21F1-8319-53243BFA6F0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8068A3E5-D4FB-B42A-46DB-F45CAD03B327" name="LOT_CONTRACT_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:52 UTC</createdTime>
+<generatorID>2233619C-44FF-F9EA-59F6-52E8B7830A82</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B73DFF99-1630-ADDC-81EF-B1A27F6573A0"/>
+<colUsage columnID="51BFBC74-4D0E-CD3C-2D0B-71AEA62AFBC6"/>
+<colUsage columnID="777671B0-FE4E-5C2E-5AD1-815A74243A3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DF4E86E-3AA7-896B-09C8-CE5C789BA21D" name="LOT_SUBDIVISION_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:52 UTC</createdTime>
+<generatorID>0E73D559-7099-65E8-20C9-FA1EE4D9EACF</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A516B25-D932-AC14-2503-C3E66B76F598"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

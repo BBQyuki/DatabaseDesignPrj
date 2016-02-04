@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A18F46A-2C1B-8108-CBCC-A5400A256E26" name="TOUR">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>5F1751AE-1011-5600-DEB2-798D13174AD5</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DATE" id="09046125-F59F-B9F2-2B4F-09520BEE2D6A">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>E1DFB40F-0CDA-B886-5A78-D3C2CCF31E5A</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISIT_RECORD_CUSTOMER_Email" id="12121A3C-E0BE-715B-A299-28D7611B8DFF">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>C205C075-AE66-D685-7BB3-B610EA386503</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="304A2D29-4D05-CD8B-C0D0-0F3C7E5E6EB7" referredColumn="ADE2BCFD-2D29-A231-A56B-E0073C7F0B00"/>
+</associations>
+</Column>
+<Column name="VISIT_RECORD_SUBDIVISION_Name" id="6FD94AA2-7BC9-2351-F40B-72EEA69B554F">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>A9EBD638-A914-9DB7-B314-72A5470A8514</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="304A2D29-4D05-CD8B-C0D0-0F3C7E5E6EB7" referredColumn="41B47E21-0D4B-B69B-FD14-71EAF766442D"/>
+</associations>
+</Column>
+<Column name="EMPLOYEE_Employee_ID" id="0314AA72-4080-579C-D2E8-373986D556C9">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<comment>key</comment>
+<generatorID>FA12CD9E-960D-17DA-7427-5004F8B2FAF3</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D97E148B-8A0A-06F5-FF30-02840A02EA7E" referredColumn="94B07554-226C-E8CC-B790-011354E7C74F"/>
+</associations>
+</Column>
+<Column name="VISIT_RECORD_Key" id="7E752ED1-7C0D-00B1-BC70-083501A6017E">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>A219005C-447F-6435-72E5-944C6E9DE1C3</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="304A2D29-4D05-CD8B-C0D0-0F3C7E5E6EB7" referredColumn="3E96A443-32CD-C661-A038-4B2C245E2341"/>
+</associations>
+</Column>
+<Column name="Key_2" id="AA1F7078-7C9B-4328-8A98-0719BABDFC92">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<comment>surrogate</comment>
+<generatorID>C8BEAA22-9C66-C26C-D248-06601440A3A3</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D007427-198E-5D69-8973-B7F9704FB5D9" name="TOUR_PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>CDC12C64-51FF-F9FC-683E-661E64507B20</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12121A3C-E0BE-715B-A299-28D7611B8DFF"/>
+<colUsage columnID="6FD94AA2-7BC9-2351-F40B-72EEA69B554F"/>
+<colUsage columnID="7E752ED1-7C0D-00B1-BC70-083501A6017E"/>
+<colUsage columnID="0314AA72-4080-579C-D2E8-373986D556C9"/>
+<colUsage columnID="AA1F7078-7C9B-4328-8A98-0719BABDFC92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96EBD765-CB70-4063-B78C-795B8E09360A" name="TOUR__IDX">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A2BDDD5B-0582-6631-B3D3-4882E62256BF</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="12121A3C-E0BE-715B-A299-28D7611B8DFF"/>
+<colUsage columnID="6FD94AA2-7BC9-2351-F40B-72EEA69B554F"/>
+<colUsage columnID="7E752ED1-7C0D-00B1-BC70-083501A6017E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D99546F2-1AF2-53D5-CF01-9357E8C6D236" name="TOUR__IDXv1">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4C0C1407-9942-3C0E-9F3F-67014C4DAFB4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0314AA72-4080-579C-D2E8-373986D556C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38FA4085-861C-A56A-59FD-1650884A6B3F" name="TOUR_VISIT_RECORD_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>A2BDDD5B-0582-6631-B3D3-4882E62256BF</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12121A3C-E0BE-715B-A299-28D7611B8DFF"/>
+<colUsage columnID="6FD94AA2-7BC9-2351-F40B-72EEA69B554F"/>
+<colUsage columnID="7E752ED1-7C0D-00B1-BC70-083501A6017E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AB09704-0652-E49D-86C2-0A7BFB8D9C9F" name="TOUR_EMPLOYEE_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<generatorID>4C0C1407-9942-3C0E-9F3F-67014C4DAFB4</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0314AA72-4080-579C-D2E8-373986D556C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

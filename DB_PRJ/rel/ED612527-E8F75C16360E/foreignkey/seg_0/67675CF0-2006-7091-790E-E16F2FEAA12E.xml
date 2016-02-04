@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="67675CF0-2006-7091-790E-E16F2FEAA12E" containerWithKeyObject="9A75C0F7-870F-EAC5-C981-F8472D5EB985" localFKIndex="29EAED72-9BD2-E529-31A2-6AF74167C238" name="FLOOR_PLAN_SUBDIVISION_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<comment>Each subdivision provides several floor plans.  A floor plan cannot be identified by itself; it belongs to a subdivision of the company.</comment>
+<generatorID>EF350BFC-AFAE-5183-C950-69E788A49B65</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7FBE5FE9-0E46-AF3F-1173-AD6AC477202B</referredTableID>
+<keyObject>D3ECAEED-1ADB-C717-3FFD-75018BDACAEF</keyObject>
+<referredKeyID>D3ECAEED-1ADB-C717-3FFD-75018BDACAEF</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

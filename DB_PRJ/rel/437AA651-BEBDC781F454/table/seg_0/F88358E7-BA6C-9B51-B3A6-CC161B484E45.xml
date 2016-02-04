@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F88358E7-BA6C-9B51-B3A6-CC161B484E45" name="SHIFT">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<generatorID>5C70E307-9D0D-F009-6568-49658CE76920</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Week" id="E415B6C6-3775-54D0-C723-66E6626D24BE">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<generatorID>79D32F74-E0CB-BCC4-F255-849579376C8A</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Key" id="638E39B0-9D99-DEC9-753E-81F3FFFAE2E6">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<comment>surrogate</comment>
+<generatorID>C23B01DF-FD89-BD5E-F30D-5D2314B48F10</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALES_AGENT_Employee_ID" id="D5BAA765-5C44-AB46-705C-640051F2EF51">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<comment>key</comment>
+<generatorID>D1CB891F-16A2-0AFC-9704-A9E960D71D65</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7DCA274-883D-F96D-D52D-F90FCE9B8EBA" referredColumn="E5A96EF2-DBAF-3315-D9C0-9F28D2DF391F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0AA02F2F-88B3-6083-9ECA-0177F0E5AFC9" name="SHIFT_PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<generatorID>F1655EEF-6215-F257-16A4-72DF47531BB9</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="638E39B0-9D99-DEC9-753E-81F3FFFAE2E6"/>
+<colUsage columnID="D5BAA765-5C44-AB46-705C-640051F2EF51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDAE3408-551E-06FC-838E-AD7B2C30013D" name="SHIFT__IDX">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E8DA45F0-643D-EA52-0DA4-7A64B6BDBE22</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D5BAA765-5C44-AB46-705C-640051F2EF51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AC206AD-A8AD-6237-6A33-928AE106EEF1" name="SHIFT_SALES_AGENT_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:08:55 UTC</createdTime>
+<generatorID>E8DA45F0-643D-EA52-0DA4-7A64B6BDBE22</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5BAA765-5C44-AB46-705C-640051F2EF51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

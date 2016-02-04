@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2432ECE3-8317-42FB-4E58-BD43294A936C" name="LOT">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:06:54 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="6AB91E3E-B829-C59E-6FD2-1603A9DCB3E0">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:07:26 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Size" id="1401B8AA-6B2B-D9B7-1476-D96CAFFA6C2D">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:07:32 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Facing" id="4DF44F1C-8C8E-0ADD-CB4A-B5165D7E200B">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:07:44 UTC</createdTime>
+<comment>North, South, East, or West</comment>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<listOfValues>
+<valueDef value="East" description=""/>
+<valueDef value="North" description=""/>
+<valueDef value="South" description=""/>
+<valueDef value="West" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Whether_available" id="26591B7D-3DDC-B9BB-5471-B39BF4150D0C">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:08:24 UTC</createdTime>
+<comment> Sold lots and the lots that have been selected to build an &lt;br/&gt;inventory home are considered not ‘available’. </comment>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="7EA46187-3F64-ADAD-76E0-B0F76DDA643D">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:12:25 UTC</createdTime>
+<generatorID>0E73D559-7099-65E8-20C9-FA1EE4D9EACF</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<referedAttribute>DCEA2B8B-2CEA-A561-7AE2-C1098A277D46</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="72E92E70-35B5-B626-41DE-9EA478DA9487">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:35:30 UTC</createdTime>
+<generatorID>2233619C-44FF-F9EA-59F6-52E8B7830A82</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<referedAttribute>0FED5D52-F066-6614-C749-53CAA9FADF4D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="1044D514-4B69-9A22-D36C-8A9872BA5C2F">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:35:30 UTC</createdTime>
+<generatorID>2233619C-44FF-F9EA-59F6-52E8B7830A82</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<referedAttribute>D39F6904-41DC-C32B-883C-D914446D4F90</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name1" id="F565975D-E188-EA7F-3C73-A1048A537A03">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:35:30 UTC</createdTime>
+<generatorID>2233619C-44FF-F9EA-59F6-52E8B7830A82</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<referedAttribute>27636F21-B54B-4EE6-0484-C1456E717192</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A73F4B8-FE7C-D53A-1198-5E3C5826D21E" name="LOT PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:07:30 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6AB91E3E-B829-C59E-6FD2-1603A9DCB3E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

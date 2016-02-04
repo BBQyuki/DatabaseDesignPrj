@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="D8024448-4F8D-C659-AFFA-84FAB114212F" name="FKArc_1">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-13 22:23:01 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>E3099475-1814-0822-6076-F2F0DD5FF7E5</table>
+<discriminatorColumn>0124ADC5-4ADF-0E7A-B100-BFB4A49BAC09</discriminatorColumn>
+<fkeys>
+<fkeyID>4138971F-ADC4-A306-905B-5DBA7A7B2BE1</fkeyID>
+<fkeyID>0E020362-A2E3-CADD-FF89-8306E9D38610</fkeyID>
+</fkeys>
+</FKArc>

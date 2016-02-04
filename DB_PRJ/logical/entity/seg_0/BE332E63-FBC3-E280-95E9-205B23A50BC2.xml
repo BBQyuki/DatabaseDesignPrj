@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE332E63-FBC3-E280-95E9-205B23A50BC2" name="CONTRACT">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:56:24 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Sign_date" id="08EBA8B2-57E1-8DE7-C8B8-52AAEA0A5E48">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-07 23:59:24 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sale_price" id="9F4C2A9F-C0CF-F749-65CC-E30B7B117BBF">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:00:27 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="0FED5D52-F066-6614-C749-53CAA9FADF4D">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:32:28 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="D39F6904-41DC-C32B-883C-D914446D4F90">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:32:55 UTC</createdTime>
+<generatorID>F2E977DF-A699-8427-6545-BC169D374056</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<referedAttribute>56A5B48B-AA9B-3E5E-AE9E-1E4232B2F903</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="27636F21-B54B-4EE6-0484-C1456E717192">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:33:15 UTC</createdTime>
+<generatorID>4501C45A-83D9-1996-741E-4ED6DDB1A281</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<referedAttribute>DCEA2B8B-2CEA-A561-7AE2-C1098A277D46</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee_ID" id="69DEA713-833E-357B-51F9-FEF260177D1E">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:39:35 UTC</createdTime>
+<comment>key</comment>
+<generatorID>1BB283A4-5C6E-B9E7-514F-BC5621DC12A2</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<referedAttribute>A7170F47-F228-9B01-D938-FFE97D7623C2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE3F864E-20E3-A44E-8BF6-04E3BD678E3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12641E70-A5D4-38A3-D26C-EB0856F00D0E" name="CONTRACT PK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-08 00:32:34 UTC</createdTime>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<engineerTo>
+<item key="ED612527-AF7D-19C3-E976-E8F75C16360E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0FED5D52-F066-6614-C749-53CAA9FADF4D</attributeRef>
+<attributeRef>D39F6904-41DC-C32B-883C-D914446D4F90</attributeRef>
+<attributeRef>27636F21-B54B-4EE6-0484-C1456E717192</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A415A1C4-DAF4-F882-E78F-7906AF5A829F" containerWithKeyObject="FE062571-84C1-D892-4519-292854E24829" localFKIndex="55609F47-F060-6C26-2B9C-2FC2BBA46743" name="FLOOR_PLAN_CONTRACT_FK">
+<createdBy>bbq_o</createdBy>
+<createdTime>2015-12-14 05:23:52 UTC</createdTime>
+<generatorID>FA57EAF6-75B2-E822-B530-A8AE1E6EC1E8</generatorID>
+<ownerDesignName>DB_PRJ</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3A69A2EF-5523-1E22-9F48-5856CB82710B</referredTableID>
+<keyObject>C5775CAE-9789-E17C-36EA-38499C904FA6</keyObject>
+<referredKeyID>C5775CAE-9789-E17C-36EA-38499C904FA6</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
